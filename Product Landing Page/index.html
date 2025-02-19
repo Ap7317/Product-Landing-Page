@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <div class="product">
+                <article>
+                    <img src="Product-1.jpg" alt="Product Image" class="product-image">
+                    <p class="product-title">Men's Sweater</p>
+                    <button class="buy-now" onclick="confirmPurchase()">Buy Now</button>
+                    <button class="collapsible">View Details</button>
+                    <div class="content">
+                        <p class="product-description">This is a great product with amazing features.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="Product-2.jpg" alt="Product Image" class="product-image">
+                    <p class="product-title">Men's Jeans</p>
+                    <button class="buy-now" onclick="confirmPurchase()">Buy Now</button>
+                    <button class="collapsible">View Details</button>
+                    <div class="content">
+                        <p class="product-description">This is a great product with amazing features.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="Product-3.jpg" alt="Product Image" class="product-image">
+                    <p class="product-title">Men's Kurta</p>
+                    <button class="buy-now" onclick="confirmPurchase()">Buy Now</button>
+                    <button class="collapsible">View Details</button>
+                    <div class="content">
+                        <p class="product-description">This is a great product with amazing features.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="Product-4.jpg" alt="Product Image" class="product-image">
+                    <p class="product-title">Men's Sweater</p>
+                    <button class="buy-now" onclick="confirmPurchase()">Buy Now</button>
+                    <button class="collapsible">View Details</button>
+                    <div class="content">
+                        <p class="product-description">This is a great product with amazing features.</p>
+                    </div>
+                </article>
+            </div>
+
+            <section class="contact-form">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Your message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Company Name. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
